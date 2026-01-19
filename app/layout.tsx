@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "./theme/provider";
 import { EarlyThemeDetector } from "./theme/early-theme-detector";
 import { AppBarFront } from "./components/app-bar-front";
+import { ConsoleCredit } from "./components/console-credit";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,6 +44,7 @@ export default function RootLayout({
           <AppBarFront />
           {children}
         </ThemeProvider>
+        <ConsoleCredit />
       </body>
     </html>
   );
