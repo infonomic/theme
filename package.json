@@ -1,7 +1,7 @@
 {
-  "name": "theme",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@infonomic/theme",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
