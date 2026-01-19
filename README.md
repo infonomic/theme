@@ -4,6 +4,8 @@ Bulletproof theme detection and switching for Next.js (or other SSR frameworks w
 
 ## Implementation
 
+A 'shim'-based Theme detector and switch with zero Flash of Unstyled Content (FOUC).
+
 Our theme detector and switch determines theme settings based on:
 1. preferences in localStorage, 
 2. prefers-color-scheme user agent, 
