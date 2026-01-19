@@ -13,6 +13,7 @@ export const MoonIcon = ({ className, svgClassName, ...rest }: { className?: str
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         stroke="currentColor"
+        fill="none"
         className={svgClassName}
         focusable="false"
         aria-hidden="true"

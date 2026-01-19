@@ -51,14 +51,14 @@ const ThemeSwitch = ({
       <div className="relative w-[24px] h-[24px] flex items-center justify-center">
         {/* Both icons are always rendered; CSS handles visibility to avoid hydration mismatches */}
         <div className="light">
-          <LightIcon svgClassName={[
+          <LightIcon className="text-white" svgClassName={[
             lightIconClassName,
           ]
             .filter(Boolean)
             .join(' ')} />
         </div>
         <div className="moon">
-          <MoonIcon svgClassName={[
+          <MoonIcon className="text-black" svgClassName={[
             moonIconClassName,
           ]
             .filter(Boolean)
