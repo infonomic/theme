@@ -3,7 +3,8 @@
 import cx from 'classnames'
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import { ThemeSwitch } from '../../theme/theme-switch'
+import { ThemeSwitch } from '@/app/theme/theme-switch'
+import { GithubIcon } from '@/app/components/app-bar-front/github-icon'
 
 interface AppBarProps {
   className?: string
@@ -55,6 +56,15 @@ export const AppBarFront = ({ className, ref, ...other }: AppBarProps) => {
           )}
         >
           <ThemeSwitch className="mr-0 ml-auto" />
+          <a
+            className=""
+            href="https://github.com/infonomic/theme"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GithubIcon className="ml-4 text-black dark:text-white" />
+          </a>
+
         </div>
       </header>
     </>
