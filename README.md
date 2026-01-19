@@ -1,6 +1,6 @@
 # Infonomic Theme
 
-Bullet proof theme detection and switching for Next.js (or other SRR framework with minor mods)
+Bulletproof theme detection and switching for Next.js (or other SSR frameworks with minor modifications)
 
 ## Implementation
 
